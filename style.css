@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
 * {
   border-radius: 30px;
   padding: 8px;
@@ -7,6 +9,7 @@
 body {
   min-height: 100vh;
   transition: 0.5s;
+  border-radius: 0;
 }
 
 img {
@@ -28,17 +31,16 @@ img {
   padding: 10px;
 }
 
-.themeContainer {
-  position: fixed;
-  top: 0;
-}
-
 .theme {
   margin: 3px 0;
   border: 3px solid white;
   height: 30px;
   width: 30px;
   cursor: pointer;
+}
+
+.theme:hover {
+  transform: scaleX(0.8);
 }
 
 #dark {
@@ -57,6 +59,16 @@ img {
 }
 .salmonTheme {
   background-color: salmon;
+  font-weight: 600;
+  font-size: 22px;
+}
+.salmonTheme a {
+  color: white;
+  font-size: 16px;
+}
+.salmonTheme a:hover {
+  color: white;
+  font-style: italic;
 }
 .yellowTheme {
   background-color: rgb(185, 185, 11);

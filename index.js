@@ -70,10 +70,12 @@ theme.forEach((item) => {
         document.body.classList.add("darkTheme");
         break;
       case "salmon":
+        document.querySelector(".mouseEvent").style.borderColor = "white";
         document.body.classList.add("salmonTheme");
         break;
 
       case "yellow":
+        document.querySelector(".mouseEvent").style.borderColor = "salmon";
         document.body.classList.add("yellowTheme");
         break;
 
