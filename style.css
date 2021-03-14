@@ -45,7 +45,7 @@ img {
   background-color: salmon;
 }
 #yellow {
-  background-color: yellow;
+  background-color: rgb(185, 185, 11);
 }
 
 .darkTheme {
@@ -56,7 +56,7 @@ img {
   background-color: salmon;
 }
 .yellowTheme {
-  background-color: yellow;
+  background-color: rgb(185, 185, 11);
   color: white;
 }
 
