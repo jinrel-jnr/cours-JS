@@ -1,3 +1,5 @@
+// ****************************** Toggle & setTimeOut *********************************************** //
+
 const btn = document.querySelector("#btn");
 const btn2 = document.querySelector("#btn2");
 const img = document.getElementById("img");
@@ -55,12 +57,12 @@ input.addEventListener("input", (e) => {
   vertical.innerHTML = e.target.value;
 });
 
-// ********************************   CHANGEMENT COULEUR THEME   ************************************ //
+// ********************************   SETTING THEME COLOR   ************************************ //
 const theme = document.querySelectorAll(".theme");
 
 theme.forEach((item) => {
   item.addEventListener("click", (e) => {
-    // Le switch détermine un comportement sur l'id du theme sélectionné
+    // Theme style reset
     document.body.classList.remove("darkTheme", "yellowTheme", "salmonTheme");
 
     switch (e.target.id) {
