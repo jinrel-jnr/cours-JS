@@ -32,7 +32,10 @@ img {
   position: fixed;
   top: 0;
 }
+
 .theme {
+  margin: 3px 0;
+  border: 3px solid white;
   height: 30px;
   width: 30px;
   cursor: pointer;
